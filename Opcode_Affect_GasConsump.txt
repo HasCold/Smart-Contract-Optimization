@@ -1,0 +1,41 @@
+------------------------------------------ Opcode -------------------------------------------
+---------------------------------------------------------------------------------------------
+
+. In computing, an opcode is the portion of a machine language instruction that specifies the operation to be performed.
+
+Instructions in machine code : -
+    Computer divides the code into three parts
+
+    111        001          1011        -->>  Instruction Mode = 1110011011 
+    Mode  |   Opcode   |   Operand    
+
+Opcode tells us what type of operation should perform like addition, substraction, multiplication and division etc.
+
+Some of the addressing mode :-
+. Immmediate addressing mode 
+. Register mode
+. Direct mode
+. Indirect mode
+
+
+Example :- 
+
+    Mode    |      Opcode     |       Operand               
+     Y              add          UX20, 30 (Memory Location)
+
+     Add (2 + 3) = 5
+
+
+
+Program   -->>   Assembly   -->>  Binary Code (Machine Code)
+
+Example :-
+
+    Program                                         Machine Code 
+    a = 1, b = 2                                        Push 0  (a is stored on 0 th position)
+    a + b                                               Load     (Then Load a)   
+                                                        Push 1  (b is stored on 1 st position)
+                                                        Load    (Then Load b)  
+                                                        Add
+
+NOTE :- To know more about opcode https://ethereum.org/en/developers/docs/evm/opcodes/

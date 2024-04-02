@@ -1,0 +1,54 @@
+Overview :- 
+
+Factors Affecting Gas Consumption :
+1. Opcode
+2. State Change
+3. Transactions
+4. Memory
+
+Transaction Fee Calculation :-
+
+Transaction Fee = (Gas Consumed * Gas Price) * (Ether Price/10^9)
+
+1 gwei = 10^-9 eth
+1 ether = 10^9 gwei
+
+We can directly control the gas consumption field out of these three.
+
+The normal ethereum transaction gas consumption is about the 21,000 Gas Limit.
+
+
+------------------------------------------ Ethereum Block Limit Explain -----------------------------------------------------
+
+Bitcoin Block Size  =  1MB
+Ethereum Block Size = 30 million gas 
+
+The normal ethereum transaction gas consumption is about the 21,000 Gas Limit.
+
+------------------ Reason Why the Block size is in the 30 million gas :- 
+
+- To prevent heavy transaction from running on the ethereum blockchain and their P2P connected nodes.
+
+- To prevent the network congestion because of the large size block which will also propagate on to the other nodes so it will decided by the ethereum community that the block size is about 30 million gas.
+
+- Total number of transaction per block (t/b) = 30 million / 21000 = 1428 (Means in one block there could be the 1428 transactions of 21000 which is the gas consumption for per transaction).
+
+- t/b = 30 million / Denominator
+
+- Denominator (The gas comsumption or gas limit will decide how much transaction will throughput in the block size) will decide number of transactions per second.
+
+- NOTE :- 30 million not static it might also be changed in the future.
+
+
+
+----------------------------------- Transaction Cost V/S Execution Cost ----------------------------------
+
+Execution cost is the Transaction cost but the transaction cost is not the execution cost. 
+
+Execution Cost :- 
+. All cost related to the internal storage and manipulation of the contract.
+
+
+Transaction Cost :- 
+. All cost related to the internal storage and manipulation of the contract.
+. The cost of sending data to the blockchain.
