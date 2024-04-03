@@ -1,0 +1,52 @@
+---------------------------- Binary Number System ------------------------------------
+
+32          16          8          4         2           1
+
+1           0           1          1         0           1    == >> Binary Number  for  45
+
+2^5         2^4         2^3       2^2       2^1         2^0
+
+
+45  =  1*32 + 0*16 + 1*8 + 1*4 + 0*2 + 1*1
+
+45  =  1*2^5 + 0*2^4 + 1*2^3 + 1*2^2 + 0*2^1 + 1*2^0
+
+The representaion of decimal number which is 45 in binary number system is :  101101 and the base is "2".
+
+
+
+Digits: Binary digits are called "bits." Each bit can hold one of two values: 0 or 1.
+
+Place Value: In binary, each digit's place value represents a power of 2, starting from the rightmost digit. For instance:
+
+The rightmost digit represents 2^0 (which is 1).
+The next digit to the left represents 2^1 (which is 2).
+The next represents 2^2 (which is 4).
+And so on, with each subsequent digit representing twice the value of the previous one.
+
+
+--------------------------------------------- Deicmal to Binary --------------------------------------------
+
+            N                       Quotient(N/2)                       Remainder(N % 2) (Which is also our binary representaion)
+
+            45                          22                                  1
+            22                          11                                  0
+            11                          5                                   1
+            5                           2                                   1
+            2                           1                                   0
+            1                           0                                   1   
+
+                                Calculation for 1 / 2 :
+                                        0
+                                    2|	1
+                                       -0
+                                        1
+
+Now the reverse order of remainder looks like for binary number system :-  101101
+
+
+--------------------------------------------- Binary to Decimal --------------------------------------------
+
+            1       0       1         1          0           1
+
+            2^5    2^4      2^3       2^2       2^1         2^0

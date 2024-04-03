@@ -39,3 +39,38 @@ Example :-
                                                         Add
 
 NOTE :- To know more about opcode https://ethereum.org/en/developers/docs/evm/opcodes/
+
+
+-------------------------------------- Bit Shifting -----------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+-------------------- Left Shift Operator
+. The left shift (<<) operator is used for multiplication.
+
+
+Digits: Binary digits are called "bits." Each bit can hold one of two values: 0 or 1.
+    6 Decimal Number in to the Binary Number System for 5-bits  ==   0    0    1     1     0
+
+    16         8           4           2            1
+
+    0*2^4      0*2^3      1*2^2        1*2^1      0*2^0  ==   0 0 1 1 0  for  6  Decimal Number
+
+
+So when we apply the left shift operator (<<) on the  0 0 1 1 0 which is 6 Decimal number, so every digit will change its place move one place ahead from right to left Now it becomes :-
+                            0   1   1   0   0  =  12 
+
+                            Now when you convert this Binary Number into the Decimal number system you will see it becomes 12 after applying the left shift operator on 6 
+
+         0         1         1         0          0
+       
+       0*2^4      1*2^3    1*2^2      0*2^1     0*2^0  = 12 Decimal Number
+
+
+-------------------- Right Shift Operator
+. The right shift (>>) operator is used for division.
+
+All the process is gone same as above in the left shift operator but the digits from move from left to right.
+
+6 Decimal Number = 0 0 1 1 0      Apply Right Shift Operator  then becomes   0  0  0  1  1
+
+0  0  0  1  1  (Binary Number)  =  3 Deicmal Number
