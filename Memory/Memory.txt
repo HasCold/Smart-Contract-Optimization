@@ -1,0 +1,4 @@
+--------------------------------- Memory ----------------------------------
+
+. Avoid the use of State Variable as much as you can, in case you want to save the data persistently on the blockchain then use it.
+. In ethereum, everything is stored in a 32 bytes slots. 

@@ -5,7 +5,7 @@ contract operator{
     
     function multiplyByTwo(uint x) public pure returns(uint){
         // x * 2;  Multiply by 6   // 	841 gas
-        return  x<<1;   // left shift operator is used for the multiplication  ->> execution cost after applying the left shift operator is 602 gas
+        return  x<<1; // 2^1 = 2  ;   x << 3 -> 2^3 = 8   // left shift operator is used for the multiplication  ->> execution cost after applying the left shift operator is 602 gas
     }
 
     function divideByTwo(uint x) public pure returns(uint){

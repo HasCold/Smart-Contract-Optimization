@@ -74,3 +74,24 @@ All the process is gone same as above in the left shift operator but the digits 
 6 Decimal Number = 0 0 1 1 0      Apply Right Shift Operator  then becomes   0  0  0  1  1
 
 0  0  0  1  1  (Binary Number)  =  3 Deicmal Number
+
+
+- Special Note :- You can use this technique very carefully becuase you will face the bit shifting overflow issue which change the entire value of your data;     x << 6  //   2^6 ==>> Move the bit 6 place ahead and cause the overflow problem. 
+
+- Type Of Transaction : - Each byte of hexadecimal character has 4 bits (decimal digits)
+0 = 0000
+1 = 0001
+2 = 0010
+3 = 0011
+4 = 0100
+5 = 0101
+6 = 0110
+7 = 0111
+8 = 1000
+9 = 1001
+A = 1010
+B = 1011
+C = 1100
+D = 1101
+E = 1110
+F = 1111
